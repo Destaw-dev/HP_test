@@ -19,7 +19,7 @@ export const Categories = () => {
 
   return (
     <section className="bg-[#F5F5F5] flex-col lg:h-[284px] relative flex justify-center">
-      <div className="container lg:px-28 md:px-13">
+      <div className="container lg:px-28 md:px-13 md:mx-auto">
         <h3 className="text-center text-[#16254F] text-lg lg:text-3xl lg:pt-14 lg:pb-12 pt-6 pb-8">
           באיזה תחום לחפש לך עסק?
         </h3>

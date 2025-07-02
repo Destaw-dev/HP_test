@@ -1,0 +1,13 @@
+export { AnimalsIcon } from "./animals";
+export { ClothesIcon } from "./clothes";
+export { ConsultationIcon } from "./consultation";
+export { GymIcon } from "./gym";
+export { PizzaIcon } from "./pizza";
+export { RestaurantIcon } from "./restaurant";
+export { TaxiIcon } from "./taxi";
+export { VacationIcon } from "./vacation";
+export { MakeupIcon } from "./makeup";
+export { SupermarketIcon } from "./supermarket";
+export { AlcoholIcon } from "./alcohol";
+export { DiamondIcon } from "./diamond";
+export { AccessibilityIcon } from "./accessibility";

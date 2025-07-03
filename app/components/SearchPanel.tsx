@@ -15,7 +15,7 @@ export default function SearchPanel() {
     >
       <div
         className={`lg:h-[465px] md:bg-[#F5F5F5] rounded-t-2xl text-[#16254F] flex flex-col md:pt-10 gap-6 lg:px-18 md:px-10 px-6 ${
-          tab === "people" ? "pb-1.5" : "pb-16"
+          tab === "people" ? "pb-1.5" : "pb-17"
         }`}
       >
         <SearchTabs activeTab={tab} setActiveTab={setTab} />
@@ -24,7 +24,9 @@ export default function SearchPanel() {
           {tab === "business" ? "איזה עסק למצוא לך?" : "את מי למצוא לך?"}
         </h2>
 
-        <form className={`flex flex-col gap-6 `}>
+        <form className={`flex flex-col gap-6 ${
+          tab === "people" ? "md:pb-4" : "md:pb-4"
+        }`}>
           <SearchInputFields activeTab={tab} />
           <SearchButton activeTab={tab} />
         </form>

@@ -40,7 +40,7 @@ export const CategoryItem = ({ title, icon }: CategoryItemProps): JSX.Element =>
   return (
     <div className="flex flex-col items-center md:min-w-[78px]">
         <IconComponent className="w-10 h-10 lg:w-16 lg:h-16" />
-      <span className="text-sm lg:text-xl text-center text-[#16254F] font-medium whitespace-nowrap">
+      <span className="text-xs md:text-xl text-center text-[#16254F] font-medium whitespace-nowrap">
         {title}
       </span>
     </div>

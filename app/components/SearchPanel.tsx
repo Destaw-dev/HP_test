@@ -15,12 +15,12 @@ export default function SearchPanel() {
     >
       <div
         className={`lg:h-[465px] md:bg-[#F5F5F5] rounded-t-2xl text-[#16254F] flex flex-col md:pt-10 gap-6 lg:px-18 md:px-10 px-6 ${
-          tab === "people" ? "pb-2.5" : "pb-18"
+          tab === "people" ? "pb-1.5" : "pb-16"
         }`}
       >
         <SearchTabs activeTab={tab} setActiveTab={setTab} />
 
-        <h2 className="lg:text-3xl lg:text-center">
+        <h2 className="lg:text-4xl text-2xl lg:text-center">
           {tab === "business" ? "איזה עסק למצוא לך?" : "את מי למצוא לך?"}
         </h2>
 
